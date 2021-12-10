@@ -1,0 +1,76 @@
+
+Hi, thanks for you support! It's really important to me. In this document you'll find information 
+on how to use this asset properly, this includes things like item positions, 
+animation times and some other stuff.
+
+Support email: mauriciomarinho2@gmail.com
+
+=======================================================================================================
+
+Assets positions and visibility
+
+Camera settings:
+
+FOV 43 (make it a viewmodel, don't use a fov so low for your main camera)
+	Clipping plane Near at 0.1
+	Position X:0 Y:0 Z:0.0
+	Rotation X:0 Y:0 Z:0
+
+=======================================================================================================
+
+Animations time:
+
+Animations have a source of 30 fps
+
+Use the 'attack2' animation from default pose, you can combo that with 'attack3' and alternate between them.
+To get them to default pose again, use the 'draw' animation. Same thing with 'attack4', use the 'draw'
+animation to transition to default pose again.
+
+Some animations have event markers to show you the "hit" frame. You might want to use some 
+threshold for hit frames. I've done this to facilitate some coding, but if you won't use it, remove it
+so it doesn't show annoying error messages on the console.
+
+The only animation with impact "baked" into it, is the first 'attack'. For a better hit feedback on your game,
+try pausing or slowing down the attack animation when it hits something for a couple of miliseconds.
+
+	attack / 0-42
+	attack2 / 0-21 / combine with attack3, to finish it, use the draw animation then go back to idle
+	attack3 / 0-22 / combine with attack2, to finish it, use the draw animation then go back to idle
+	attack4 / 0-25 / to finish it, use the draw animation then go back to idle
+	crawl / 2-30 / loop
+	crawl transition / 0-24
+	draw / 0-27
+	holster / 0-20
+	idle / 0 - 89 / loop
+	idle_move / 0-55
+	idle_move_2 / 0-117
+	run / 0-19 / loop 
+	walk / 0-30 / loop
+
+=======================================================================================================
+
+Textures:
+
+These were made with Substance Painter, in order to work right, you need to set your player
+settings color space to linear, instead of gamma.
+
+Here's more info on that:
+
+https://support.allegorithmic.com/documentation/display/SPDOC/Unity+5
+
+Also, all screenshots and video on the asset page, were lit using only one custom skybox, made with
+the "glazed_patio.exr" hdr texture from allegorithmic
+
+=======================================================================================================
+
+Polycount:
+
+Arms:
+
+	Verts: 2,894
+	Tris 5,744
+	
+Fireaxe
+
+	Verts: 989
+	Tris: 1,974

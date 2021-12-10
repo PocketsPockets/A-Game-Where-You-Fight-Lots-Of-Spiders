@@ -1,0 +1,107 @@
+fileFormatVersion: 2
+guid: 92cd3ebae371dd640915e6d1c8c82a64
+timeCreated: 1535677799
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: M4A1
+    100002: M4A1_bolt
+    100004: M4A1_fireselector
+    100006: M4A1_mag
+    100008: M4A1_magbullets
+    100010: M4A1_rearsight
+    100012: M4A1_rearsightfolded
+    100014: //RootNode
+    100016: M4A1_trigger
+    400000: M4A1
+    400002: M4A1_bolt
+    400004: M4A1_fireselector
+    400006: M4A1_mag
+    400008: M4A1_magbullets
+    400010: M4A1_rearsight
+    400012: M4A1_rearsightfolded
+    400014: //RootNode
+    400016: M4A1_trigger
+    2300000: M4A1
+    2300002: M4A1_bolt
+    2300004: M4A1_fireselector
+    2300006: M4A1_mag
+    2300008: M4A1_magbullets
+    2300010: M4A1_rearsight
+    2300012: M4A1_rearsightfolded
+    2300014: M4A1_trigger
+    3300000: M4A1
+    3300002: M4A1_bolt
+    3300004: M4A1_fireselector
+    3300006: M4A1_mag
+    3300008: M4A1_magbullets
+    3300010: M4A1_rearsight
+    3300012: M4A1_rearsightfolded
+    3300014: M4A1_trigger
+    4300000: M4A1_bolt
+    4300002: M4A1_rearsightfolded
+    4300004: M4A1_rearsight
+    4300006: M4A1_trigger
+    4300008: M4A1_fireselector
+    4300010: M4A1_magbullets
+    4300012: M4A1_mag
+    4300014: M4A1
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

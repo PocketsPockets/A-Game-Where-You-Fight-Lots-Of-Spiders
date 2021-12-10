@@ -1,0 +1,108 @@
+
+Hi, thanks for buying my asset. In this document you'll find information on how to use it properly,
+this includes things like item positions, animation times and some other stuff.
+
+Support email: mauriciomarinho2@gmail.com
+
+=======================================================================================================
+
+Assets positions and visibility:
+
+There is a shotgun bulllet below the weapon, for you to use it as you see fit.
+If you wont use, I suggest turning visibility off or just removing.
+
+By default, both arm types are visible, you can disable the one you won't use.
+
+=======================================================================================================
+
+Camera settings:
+
+FOV 27.7 (make it a viewmodel, don't use a fov so low for your main camera)
+Clipping plane Near at 0.1
+Position X:0 Y:0.08 Z:0.1
+Rotation X:0 Y:-180 Z:0
+
+ADS Camera:
+
+FOV 25.7
+Clipping plane Near at 0.1
+Position X:0 Y:0.1 Z:0.02
+Rotation X:0 Y:-180 Z:0
+
+A Camera with these settings are provided in the prefab.
+
+=======================================================================================================
+
+Animations time:
+
+"MM590|ref" is just a resting pose reference
+
+ADS off / 1-22 / transition - hold end
+ADS on / 1-22 / transition - hold end
+attack / 1-2 trigger / 3-27 shot loop / 27-34 stabilization / ready on 26
+attack failed / 1-7
+crawl / 5-37 / loop
+crawl Transition / 2-22
+draw / 1-53 / ready on frame 22
+draw and slide / 1-77 / ready on frame 35
+holster / 1-19
+idle / 1-80
+idle move 1 / 1-34
+dle move 2 / 1-24
+idle move 3 / 1-140
+inspect / 1-299
+reload / 1-22 forend pull / 22-41 and 41-54 reload / 54-105 tactical / ready on 87 / hide bullet 34-40 and 71-105
+run / 1-20 / loop
+walk / 10-40 (1-30 in fbx) / loop
+
+=======================================================================================================
+
+Textures:
+
+These were made with Substance Painter, in order to work right, you need to set your player
+settings color space to linear, instead of gamma.
+
+Here's more info on that:
+
+https://support.allegorithmic.com/documentation/display/SPDOC/Unity+5
+
+Also, all screenshots and video on the asset page, were lit using only one custom skybox, made with
+the "studio_03" hdr texture from allegorithmic
+
+=======================================================================================================
+
+Polycount:
+
+MM590:
+
+  Tris 13,677
+
+Bullet:
+
+  Tris 124
+
+Arms
+
+  Tris 5,744
+
+Arms with clothing
+
+  Tris 6,580
+
+=======================================================================================================
+
+Suggestions:
+
+Spawn a bullet at the bolt carrier at every shot.
+
+Have a look at the .blend file if you need to replicate the rig in unity.
+
+This was created with blender version 2.78 (hash 514db9f, date 2016-11-29) use this version or
+higher if you spot any weird issues.
+
+Use a SSS shader on the hands for a better look.
+
+Add some camera shake when shooting.
+
+All textures are compressed to 2048 by default, base textures have a original size of 4k, change it's
+settings to it, if you need it.

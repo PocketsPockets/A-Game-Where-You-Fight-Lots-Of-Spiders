@@ -1,0 +1,137 @@
+fileFormatVersion: 2
+guid: c80a306a7119f9742b1299d348fe4e8f
+timeCreated: 1450625024
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: RigLLeg11
+    100004: RigLLeg12
+    100006: RigLLeg1Ankle
+    100008: RigLLeg21
+    100010: RigLLeg22
+    100012: RigLLeg2Ankle
+    100014: RigLLeg31
+    100016: RigLLeg32
+    100018: RigLLeg3Ankle
+    100020: RigLLeg41
+    100022: RigLLeg42
+    100024: RigLLeg4Ankle
+    100026: RigLMouth1
+    100028: RigLMouth2
+    100030: RigPelvis
+    100032: RigRLeg11
+    100034: RigRLeg12
+    100036: RigRLeg1Ankle
+    100038: RigRLeg21
+    100040: RigRLeg22
+    100042: RigRLeg2Ankle
+    100044: RigRLeg31
+    100046: RigRLeg32
+    100048: RigRLeg3Ankle
+    100050: RigRLeg41
+    100052: RigRLeg42
+    100054: RigRLeg4Ankle
+    100056: RigRMouth1
+    100058: RigRMouth2
+    100060: RigRoot
+    100062: RigTail1
+    400000: //RootNode
+    400002: RigLLeg11
+    400004: RigLLeg12
+    400006: RigLLeg1Ankle
+    400008: RigLLeg21
+    400010: RigLLeg22
+    400012: RigLLeg2Ankle
+    400014: RigLLeg31
+    400016: RigLLeg32
+    400018: RigLLeg3Ankle
+    400020: RigLLeg41
+    400022: RigLLeg42
+    400024: RigLLeg4Ankle
+    400026: RigLMouth1
+    400028: RigLMouth2
+    400030: RigPelvis
+    400032: RigRLeg11
+    400034: RigRLeg12
+    400036: RigRLeg1Ankle
+    400038: RigRLeg21
+    400040: RigRLeg22
+    400042: RigRLeg2Ankle
+    400044: RigRLeg31
+    400046: RigRLeg32
+    400048: RigRLeg3Ankle
+    400050: RigRLeg41
+    400052: RigRLeg42
+    400054: RigRLeg4Ankle
+    400056: RigRMouth1
+    400058: RigRMouth2
+    400060: RigRoot
+    400062: RigTail1
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: RigRoot
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

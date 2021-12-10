@@ -1,0 +1,122 @@
+
+Hi, thanks for buying my asset. In this document you'll find information on how to use it properly,
+this includes things like item positions, animation times and some other stuff.
+
+Support email: mauriciomarinho2@gmail.com
+
+=======================================================================================================
+
+Assets positions and visibility:
+
+There are some occluded models inside the AK, basically the bullets for you to use it as you see fit.
+If you wont use, I suggest turning visibility off or just removing.
+
+Magazine also contains bullets, make sure you hide them if magazine is empty.
+
+You can change the safety lever position with the rig's bone "safety lever".
+
+By default, both arm types are visible, you can disable the one you won't use.
+
+=======================================================================================================
+
+Camera settings:
+
+FOV 27.7 (make it a viewmodel, don't use a fov so low for your main camera)
+Clipping plane Near at 0.1
+Position X:0 Y:0.08 Z:0.1
+Rotation X:0 Y:-180 Z:0
+
+ADS Camera:
+
+FOV 25.7
+Clipping plane Near at 0.1
+Position X:0 Y:0.1 Z:0.02
+Rotation X:0 Y:-180 Z:0
+
+A Camera with these settings are provided in the prefab.
+
+=======================================================================================================
+
+Animations time:
+
+All animations starting with "ref" are just pose resting references, they are not animated.
+
+ADS off / 1-21 / transition - hold end
+ADS on / 1-21 / transition - hold end
+crawl / 2-33 / loop
+draw and slide / 1-73 / ready on frame 57
+draw / 1-54 / ready on frame 31
+switch fire mode / 1-43 / ready on 29 / click on frame 12
+holster / 1-14
+idle / 1 - 80 / loop
+idle move 1 / 1 - 50
+idle move 2 / 1 - 68
+idle move 3 / 1 - 92
+inspect / 1-360
+reload / 1-136 / ready on 127
+reload tactical / 1-103 / ready on frame 86
+run / 1-20 / loop
+shoot / 1-2 trigger / 2-5 shot loop / 5-17 stabilization
+shoot empty / 1-7
+walk / 10-40 / loop
+
+=======================================================================================================
+
+Textures:
+
+These were made with Substance Painter, in order to work right, you need to set your player
+settings color space to linear, instead of gamma.
+
+Here's more info on that:
+
+https://support.allegorithmic.com/documentation/display/SPDOC/Unity+5
+
+Also, all screenshots and video on the asset page, were lit using only one custom skybox, made with
+the "studio_03" hdr texture from allegorithmic
+
+=======================================================================================================
+
+Polycount:
+
+AK47:
+
+  Tris 15,849
+  Verts 8,296
+
+Bullet:
+
+  Tris 592
+  Verts 307
+
+Empty bullet:
+
+  Tris 352
+  Verts 178
+
+Arms
+
+  Tris 5,744
+  Verts 2,894
+
+Arms with clothing
+
+  Tris 6,580
+  Verts 3,334
+
+=======================================================================================================
+
+Suggestions:
+
+Spawn a bullet at the bolt carrier at every shot.
+
+There are some parts inside the gun, that might be visible, depending on how you set it up. Sometimes
+you may want to use double sided faces.
+
+Have a look at the .blend file if you need to replicate the rig in unity.
+
+This was created with blender version 2.76.5 (hash ad6b7c0, date 2016-01-05) use this version or
+higher if you spot any weird issues.
+
+Use a SSS shader on the hands for a better look.
+
+Add some camera shake when shooting.
